@@ -154,7 +154,7 @@ namespace BankApp
         {
             Console.WriteLine("Inter the amount you want to withdraw");
             withDraw_amount = Convert.ToDouble(Console.ReadLine());
-            // If user withdraw amount is greater than currentbalance (user money that is in account) it will ask user that "You have not enogugh money" and ask to input less amount 
+            // If user withdraw amount that is greater than currentbalance (user money that is in account) it will ask user that "You have not enogugh money" and ask to input less amount 
             if (withDraw_amount > currentBalance)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -164,7 +164,7 @@ namespace BankApp
                 return TheWithDraw();
                 
             } 
-            // If user withdraw amount is less or equal to zerro, it will keep asking user to give the right amount. 
+            // If user withdraw amount that is less or equal to zerro, it will keep asking user to give the right amount. 
             else if(withDraw_amount <= 0)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
