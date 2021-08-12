@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -114,7 +114,7 @@ namespace BankApp
     }
     
      //Inside my Account class i have three methods - for the Balance, deposit, and for the withdraw amount.
-     //In each method, i have calculated fx the withdraw => i recive it as input and substract it with current balance
+     //In each method, i have calculated fx the withdraw => i recive it as input and substract it with the current balance
      //and get the left amount in the account. 
     
     public class Account
